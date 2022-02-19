@@ -58,7 +58,6 @@ Matthew 22:37-40
 	<link rel="shortcut icon" type="image/x-icon" href="https://user-images.githubusercontent.com/78528185/154551610-23eca92e-46a2-4187-9444-49b4d0dba18d.png">
 	
 	<style>
-
 		body {
 			background-color: rgb(22, 22, 24);
 			color: rgb(236, 237, 238);
@@ -67,13 +66,22 @@ Matthew 22:37-40
 		}
 
 		.content {
-			max-width: 600px;
+			max-width: 777px;
 			margin: auto;
 		}
 
 		.title {
-			padding-top: 2rem;
+			margin-top: 2rem;
 		}
+
+		.avatar {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+
+		h2 {
+			text-align: center; 
+		} 
 
 		a, a:visited {
 			background-color: rgb(37, 30, 64);
@@ -85,18 +93,29 @@ Matthew 22:37-40
 			color: rgb(37, 30, 64);
 		}
 	</style>
+	<script defer>
+		window.onload = function () {
+			document.getElementById('current-year').innerText = (new Date()).getFullYear()
+		}
+	</script>
 </head>
 
 <body>
 	<div class="content">
 		<h2 class="title">https://almndbtr.dev</h2>
 
+		<div class="avatar">
+			<a href="https://rainbow.me/almndbtr.eth?family=companioninabox&nft=ethereum_0x13bd2ac3779cbbcb2ac874c33f1145dd71ce41ee_793">
+				<img src="https://user-images.githubusercontent.com/78528185/154551610-23eca92e-46a2-4187-9444-49b4d0dba18d.png" alt="almndbtr-avatar"/>
+			</a>
+		</div>
 		<hr>
-			<p>Call me Almond or <a href="https://twitter.com/almndbtr">almndbtr</a> (pronounced like "Almond Butter").</p>
+			<p>Call me Almond or <a href="https://twitter.com/almndbtr">almndbtr</a> (you know, like "Almond Butter")!</p>
 		<hr>
 
 		<p>I'm called to live my life by loving God and loving others like I love myself.</p>
-		<p>In this season, I walk my talk as a multidisciplinary builder of the <a href="https://www.youtube.com/watch?v=Xrpa2w8xees">Internet Renaissance</a> by:</p>
+		
+		<p>I bring this into my practice as a multidisciplinary builder in the <a href="https://www.youtube.com/watch?v=Xrpa2w8xees">Internet Renaissance</a> by:</p>
 
 		<ul>
 			<li>🎹 Co-hosting <a href="https://www.web3blacknotes.xyz/">The Web3 Black Notes</a> with my friends.</li>
@@ -106,13 +125,17 @@ Matthew 22:37-40
 			<li>🖼️ Supporting <a href="https://cryptomedia.wtf">cryptomedia</a> artists as a <a href="https://rainbow.me/almndbtr.eth?family=showcase">collector</a>.</li>
 		</ul>
 
+		<p>My goal in the next year is to open my own shop and to partner with <a href="https://zora.co/">Zora</a> and the <a href="https://sound.xyz/">Sound.xyz</a> team.</p>
+
 		<p>If my work resonates with you, you're welcome to support me by:</p>
 		<ul>
-			<li>🔗 sharing it with someone you care about </li>
-			<li>🪙 <a href="https://help.twitter.com/using-twitter/tips">tipping</a> <a href="https://twitter.com/almndbtr"> me on Twitter</a> or sending <a href="https://ethereum.org/en/eth/#main-content">Ether</a> to <a href="https://etherscan.io/address/0x2A372531b1B039Aa8b35046cb4F777399Cd9aE6c">almndbtr.eth</a></li>
+			<li>🔗 Sharing it with someone you care about</li>
+			<li>🪙 <a href="https://help.twitter.com/using-twitter/tips">Tipping</a> <a href="https://twitter.com/almndbtr"> me on Twitter</a> or sending <a href="https://ethereum.org/en/eth/#main-content">Ether</a> to <a href="https://etherscan.io/address/0x2A372531b1B039Aa8b35046cb4F777399Cd9aE6c">almndbtr.eth</a></li>
 		</ul>
 		
-		<p>This site does not track you. Have a cookie! 🍪</p>
+		<hr>
+		<p>😌 Rest assured: this site does not track you.</p>
+		<p>© <span id="current-year"></span> @almndbtr</p>
 	</div>
 </body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "almndbtr.dev",
+  "private": true,
+  "version": "1.0.0",
+  "description": "almndbtr.dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almndbtr/almndbtr.dev.git"
+  },
+  "keywords": [],
+  "author": "almndbtr",
+  "license": "Hippocratic-2.1",
+  "bugs": {
+    "url": "https://github.com/almndbtr/almndbtr.dev/issues"
+  },
+  "homepage": "https://github.com/almndbtr/almndbtr.dev#readme"
+}

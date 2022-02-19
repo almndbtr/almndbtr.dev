@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/almndbtr/almndbtr.dev/issues"
   },
-  "homepage": "https://github.com/almndbtr/almndbtr.dev#readme"
+  "homepage": "https://github.com/almndbtr/almndbtr.dev#readme",
+  "dependencies": {
+    "sharp": "^0.30.1"
+  }
 }
